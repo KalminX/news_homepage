@@ -35,7 +35,7 @@ function HeadLine({ title, content }) {
 }
 
 HeadLine.propTypes = {
-  title: PropTypes.string.isRequired, // Add prop type validation for title
+  title: PropTypes.string.isRequired, 
   content: PropTypes.string.isRequired,
 };
 
@@ -77,7 +77,7 @@ function App() {
     <>
       <header className="grid grid-cols-5 mb-7">
         <img
-          src="./../assets/images/logo.svg"
+          src="/assets/images/logo.svg"
           alt="news icon"
           className="col-span-3"
         />
@@ -93,12 +93,12 @@ function App() {
       <main className="md:grid grid-cols-3 gap-10">
         <div className="col-span-2">
           <img
-            src="./../assets/images/image-web-3-desktop.jpg"
+            src="/assets/images/image-web-3-desktop.jpg"
             alt=""
             className="hidden sm:block"
           />
           <img
-            src="../assets/images/image-web-3-mobile.jpg"
+            src="/assets/images/image-web-3-mobile.jpg"
             alt=""
             className="sm:hidden"
           />
@@ -144,21 +144,21 @@ function App() {
       <footer className="grid sm:grid-cols-3 mt-10 gap-3">
         <Card
           number="01"
-          src="../assets/images/image-retro-pcs.jpg"
+          src="/assets/images/image-retro-pcs.jpg"
           alt="retro pc"
           title="Reviving Retro PCs"
           content="What happens when the old PCs are given modern upgrades"
         />
         <Card
           number="02"
-          src="../assets/images/image-top-laptops.jpg"
+          src="/assets/images/image-top-laptops.jpg"
           alt="red light keyboard"
           title="Top 10 Laptops of 2022"
           content="Our best picks for various needs and budgets"
         />
         <Card
           number="03"
-          src="../assets/images/image-gaming-growth.jpg"
+          src="/assets/images/image-gaming-growth.jpg"
           alt="Hand holding a game controller"
           title="The Growth of Gaming"
           content="How the pandemic has sparked fresh opportunities"
