@@ -4,5 +4,8 @@ export default {
   theme: {
     extend: {},
   },
+  colors: {
+    "dark-blue": 'hsl(240, 100%, 5%)'
+  },
   plugins: [],
 };
