@@ -98,7 +98,7 @@ function App() {
             className="hidden sm:block"
           />
           <img
-            src="/assets/images/image-web-3-mobile.jpg"
+            src="./../public/assets/images/image-web-3-mobile.jpg"
             alt=""
             className="sm:hidden"
           />
