@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 function Card({ src, number, title, content, alt }) {
   return (
@@ -16,6 +17,14 @@ function Card({ src, number, title, content, alt }) {
   );
 }
 
+Card.propTypes = {
+  src: PropTypes.string.isRequired,
+  number: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired, // Add prop type validation for title
+  content: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};
+
 function HeadLine({ title, content }) {
   return (
     <div className="headline">
@@ -24,6 +33,11 @@ function HeadLine({ title, content }) {
     </div>
   );
 }
+
+HeadLine.propTypes = {
+  title: PropTypes.string.isRequired, // Add prop type validation for title
+  content: PropTypes.string.isRequired,
+};
 
 const HamburgerMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
