@@ -77,7 +77,7 @@ function App() {
     <>
       <header className="grid grid-cols-5 mb-7">
         <img
-          src="../assets/images/logo.svg"
+          src="./../assets/images/logo.svg"
           alt="news icon"
           className="col-span-3"
         />
@@ -93,7 +93,7 @@ function App() {
       <main className="md:grid grid-cols-3 gap-10">
         <div className="col-span-2">
           <img
-            src="../assets/images/image-web-3-desktop.jpg"
+            src="./../assets/images/image-web-3-desktop.jpg"
             alt=""
             className="hidden sm:block"
           />
