@@ -1,4 +1,3 @@
-```markdown
 # Retro Web 3 Landing Page
 
 Welcome to the Retro Web 3 Landing Page! This project is a stylish, retro-themed landing page built with React and Tailwind CSS. It combines vibrant colors and classic web design elements with modern Web 3.0 technology to create a unique and engaging user experience.
