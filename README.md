@@ -5,7 +5,7 @@ Welcome to the Retro Web 3 Landing Page! This project is a stylish, retro-themed
 
 ## Live Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://kalmin-news-landing.netlify.app/).
 
 ## Features
 
@@ -23,12 +23,12 @@ To run the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/retro-web3-landing-page.git
+   git clone https://github.com/KalminX/news_homepage.git
    ```
 
 2. **Navigate to the project directory**:
    ```sh
-   cd retro-web3-landing-page
+   cd news_homepage
    ```
 
 3. **Install dependencies**:
