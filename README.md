@@ -58,6 +58,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - Thanks to the creators of React and Tailwind CSS for providing the tools to build this project.
 - Inspired by the nostalgic web design of the early internet era.
-```
-
-Feel free to replace the placeholder link in the "Live Demo" section with the actual URL of your live site and the repository URL with your actual GitHub repository link.
